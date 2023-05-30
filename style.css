@@ -1,0 +1,179 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+section {
+   border-bottom: solid 2px rgb(197, 197, 197);
+}
+
+body {
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav {
+   display: flex;
+   justify-content: space-between;
+   padding: 2rem 9rem;
+}
+
+ul {
+   display: flex;
+}
+
+ul li {
+   list-style: none;
+   margin-left: 1.5rem;
+   cursor: pointer;
+   font-family: sans-serif;
+   color: gray;
+}
+
+li input {
+   border: none;
+   outline: none;
+   border-bottom: 1px solid black;
+}
+
+.freedom-box1 {
+   display: flex;
+   justify-content: space-between;
+   padding-left: 9rem;
+}
+
+.box-1 img {
+   width: 800px;
+}
+
+.text {
+   font-size: 40px;
+   font-weight: 700;
+}
+
+.text-box {
+   width: 90%;
+   margin: 3rem 0;
+   padding-left: 2rem;
+   line-height: 25px;
+   border-left: 2px solid gray;
+   color: gray;
+}
+
+.btn {
+   padding: .8rem 2rem;
+   border: none;
+   background-color: red;
+   color: aliceblue;
+   font-weight: 600;
+   transition: .5s;
+   cursor: pointer;
+}
+
+.btn:hover {
+   opacity: .8;
+}
+
+
+ul2 {
+   display: flex;
+   margin-top: 50px;
+}
+
+li2 {
+   list-style: none;
+   margin-left: 13.5rem;
+   cursor: pointer;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   color: rgb(0, 0, 0);
+}
+li3 {
+   list-style: none;
+   margin-left: 12.5rem;
+   cursor: pointer;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   color: rgb(0, 0, 0);
+}
+
+li4 {
+   list-style: none;
+   margin-left: 15.5rem;
+   cursor: pointer;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   color: rgb(0, 0, 0);
+}
+
+ul5 {
+   display: flex;
+}
+
+ul5 li {
+   list-style: none;
+   margin-left: 12rem;
+   width: 1500px;
+   cursor: pointer;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   color: rgb(0, 0, 0);
+}
+
+.nike-box {
+   display: flex;
+   justify-content: space-between;
+   padding-left: 9rem;
+   margin-top: 50px;
+}
+
+.text2 {
+   font-size: 40px;
+   font-weight: 700;
+   width: 20%;
+   margin-top: 400px;
+}
+
+.text-box2 {
+   width: 40%;
+   margin: 3rem 0;
+   padding-left: 2rem;
+   line-height: 25px;
+   border-left: 2px solid gray;
+   color: gray;
+}
+
+.box3 img {
+   width: 500px;
+   margin-left: 900px;
+   margin-top: -550px;
+}
+.box4 {
+   display: flex;
+   background-image: url(./img/runners.jpg);
+   background-size: cover;
+   width: 100vw;
+   height: 100vh;
+   align-items: center;
+   
+}
+.text5 {
+   font-size: 40px;
+   font-weight: 700;
+}
+.text-box3 {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;s
+   width: 40%;
+   height: 60%;
+   margin-left: 60%;
+}
+.text3 {
+   color: rgb(255, 255, 255);
+   font-size: 40px;
+   font-weight: 700;
+}
+button {
+   width: 200px;
+   height: 40px;
+   background-color: red;
+   color: aliceblue;
+   border: none;
+}
